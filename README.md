@@ -6,8 +6,9 @@ Install hugo by downloading the latest debian package.
 https://github.com/gohugoio/hugo/releases/
 
 ```
-sudo apt install ./hugo_0.117.0_linux-amd64.deb
+sudo apt install ./hugo_extended_0.117.0_linux-amd64.deb
 ```
+Note: You will need the extended version of Hugo to run some of the CSS pre-processors and other tools.  
 
 Add the installation location to your path in the .profile   
 ```
