@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+}
+
+/* body {
+    display: grid;
+    grid-template-columns: 15em auto 15em;
+    grid-template-rows: min-content auto min-content;
+    column-gap: 1em;
+    row-gap: 1em;
+    margin: 1em;
+} */
+
+body {
+    margin: 1em;
+    display: grid;
+    grid: auto-flow min-content / auto 15em;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+nav,
+aside {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+main {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+header,
+footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
