@@ -28,4 +28,6 @@ theme:
       primary: brown
       accent: blue
 
+markdown_extensions:
+  - tables
 # copyright: Copyright &copy; 2024 TMRSM Ltd

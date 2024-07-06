@@ -1,4 +1,4 @@
-name: deploy 
+name: 'publish DATAM mkdocs to github.io'
 
 on:
   push:
@@ -20,15 +20,6 @@ jobs:
           ref: main
           sparse-checkout: 'datam/'
           sparse-checkout-cone-mode: false
-
-      - name: 'Display directory content'
-        shell: bash
-        run: |
-          pwd
-          ls -l
-          cd datam
-          pwd
-          ls -l
 
       - name: 'Setup Python'
         uses: actions/setup-python@v5
