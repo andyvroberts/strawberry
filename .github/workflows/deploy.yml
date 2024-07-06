@@ -41,6 +41,13 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
 
-      - run: cd datam
-      - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force
+      - name: 'mkdocs deploy'
+        shell: bash
+        run: |
+          pwd
+          ls -l
+          cd datam
+          pwd
+          ls -l
+          pip install mkdocs-material
+          mkdocs gh-deploy --force
