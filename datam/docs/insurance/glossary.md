@@ -41,7 +41,7 @@ For example, the risk of incurring a fine for a criminal offence is uninsurable.
 
 ### Homogenous Exposure 
 Historical patterns and trends of similar exposures and risks enable insurers to forecast (see the law of large numbers) the expected extent of future losses.   
-Whereas a fortuitous event, insurable interest, and not being against public policy are absolute requirements as risk feature, a Homogenous Exposure is only an ideal.  
+Whereas a fortuitous event, insurable interest, and not being against public policy are absolute requirements as risk features, a Homogenous Exposure is only an ideal.  
 
 
 ## 3. General Defintions
@@ -123,8 +123,8 @@ For example, a fire, flood, explosion, lightening, collision, dishonesty.  Peril
 |Uninsured/Unnamed Peril |Those perils not mentioned at all in the policy |  
 
 Claims are assessed based on which category was the [Proximate Cause](#proximate-cause) of the loss.  For complex polices where various perils are insured under differing conditions, the following rules apply:  
-1.  if one of the perils is excluded then no claim is paid  
-2.  if one of the perils is not mentioned (neither inlcuded nor excluded) then the whole claim will be paid    
+i.  if one of the perils is excluded then no claim is paid  
+ii.  if one of the perils is not mentioned (neither inlcuded nor excluded) then the whole claim will be paid    
 
 ### Pooling of Risk
 The losses of a few insured clients who suffer misfortune are covered by the contributions of the many insured clients who, although exposed to similar risks, do not need to make a claim.  
@@ -144,7 +144,7 @@ An insurance policy covers a particular loss (risk/liability) caused by an insur
 Therefore, the valid relationship between the cause and the loss is called the proximate cause.  
 
 ### Risk
-There is no universally recognised definition of risk.  It can have many different meanings depending on the context.  However, to be insurable a risk must fall into one of the insurable risk categories and comply with the Risk Features.  
+There is no universally recognised definition of risk.  It can have many different meanings depending on the context.  However, to be insurable a risk must fall into one of the insurable [Risk Categories](#1-risk-categories) and comply with the [Risk Features](#2-risk-features).  
 
 |Is Insurable |Risk Category |
 |-|-|
@@ -159,7 +159,7 @@ There is no universally recognised definition of risk.  It can have many differe
 All *insurable* risks must also meet the following Risk Features:  
 Have a Fortuitous Event.  
 Have an Insurable Interest.  
-Have a risk that is not against public policy.  
+Not be against public policy.  
 
 ### Risk Management
 The identification, analysis and economic control of defined risks which can threaten assets or earning capacity.   
