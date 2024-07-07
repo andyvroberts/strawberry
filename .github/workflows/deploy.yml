@@ -7,8 +7,11 @@ on:
     paths:
     - 'datam/**'
 
+env:
+  CACHE_ID: date --utc '+%V'
+
 # Allows you to run this workflow manually from the Actions tab
-  #workflow_dispatch:
+#workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -41,8 +44,10 @@ jobs:
       - name: 'Cache'
         uses: actions/cache@v4
         with:
-          key: ${{ github.ref }}
+          key: mkdocs-material-${{ env.CACHE_ID }}
           path: .cache
+          restore-keys:
+            mkdocs-material-
 
       - name: 'mkdocs deploy'
         shell: bash
