@@ -1,7 +1,7 @@
-# Insurance
+# Glossary
 
 
-## Risk Category  
+## 1. Risk Categories 
 There are 6 types risk categories, which are used to demonstrate what is and what is not insurable.  
 ### Can be Insured:
 #### Financial Risk 
@@ -27,7 +27,7 @@ Where a risk cannot be measured only in financial terms.  For example, sentiment
 #### Speculative Risk 
 Speculation with the intent of making a financial gain cannot be insured.   For example, investments, gambling, starting a business, etc. 
 
-## Risk Features
+## 2. Risk Features
 ### Fortuitous Event 
 A risk event must be accidental or unexptected, and not inevitable.  Also, it must not be deliberate on the part of the insured.   
 
@@ -44,7 +44,7 @@ Historical patterns and trends of similar exposures and risks enable insurers to
 Whereas a fortuitous event, insurable interest, and not being against public policy are absolute requirements as risk feature, a Homogenous Exposure is only an ideal.  
 
 
-## General Defintions
+## 3. General Defintions
 ### Compulsory Insurance  
 Some types of insurance are mandated through either governaments or regulatory bodies.  
 For example, car insurance, employers liability.
