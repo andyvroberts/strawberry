@@ -38,14 +38,11 @@ jobs:
         with:
           python-version: 3.x
 
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - name: 'Cache'
         uses: actions/cache@v4
         with:
-          key: mkdocs-material-${{ env.cache_id }}
-            path: .cache
-            restore-keys: |
-              mkdocs-material-
+          key: ${{ github.ref }}
+          path: .cache
 
       - name: 'mkdocs deploy'
         shell: bash
