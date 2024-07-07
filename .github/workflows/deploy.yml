@@ -1,4 +1,4 @@
-name: 'publish DATAM mkdocs to github.io'
+name: 'Build mkdocs Site'
 
 on:
   push:
