@@ -1,4 +1,4 @@
-site_name: Strawberry
+site_name: TMRSM Docs
 
 theme:
   name: material
@@ -37,12 +37,16 @@ nav:
   - finance:
     - finance/SFT.md
 
+plugins: 
+  - search
+  - mermaid2
+
 markdown_extensions:
   - tables
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:mermaid2.fence_mermaid_custom
 
 copyright: Copyright &copy; 2024 TMRSM Ltd

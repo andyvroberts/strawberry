@@ -26,5 +26,27 @@ For custom index ordering in mkdocs use a community plugin.
 ```
 pip install mkdocs-awesome-pages-plugin
 ```
+For using mermaid diagrams in mkdocs use the mermaid 2 plugin.  
+```
+pip install mkdocs-mermaid2-plugin
+```
 
-## 
+## MKDocs Mermaid Plugin and Fence config
+There seem to be different configurations recommeded by the official doc pages, and then what others report as working config.  
+```
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+```
+versus  
+```
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+```
