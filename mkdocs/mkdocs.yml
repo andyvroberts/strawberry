@@ -31,11 +31,13 @@ theme:
 
 nav:
   - index.md
-  - insurance:
+  - Insurance:
     - insurance/Glossary.md
     - insurance/ClassOfBusiness.md
-  - finance:
+  - Finance:
     - finance/SFT.md
+  - Energy:
+      - energy/MHHS/CoS.md
 
 plugins: 
   - search
