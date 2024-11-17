@@ -1,0 +1,48 @@
+site_name: Strawberry
+
+theme:
+  name: material
+  icon:
+    logo: material/database-sync
+  features:
+    - navigation.tabs
+    #- navigation.tabs.sticky
+    #- navigation.expand
+    - navigation.top # show a "navigate to top" button when scrolling
+    #- toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Dark Mode
+      primary: blue grey
+      accent: black
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Light Mode
+      primary: deep purple
+      accent: purple
+
+nav:
+  - index.md
+  - insurance:
+    - insurance/Glossary.md
+    - insurance/ClassOfBusiness.md
+  - finance:
+    - finance/SFT.md
+
+markdown_extensions:
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+copyright: Copyright &copy; 2024 TMRSM Ltd

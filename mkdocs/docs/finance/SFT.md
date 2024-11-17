@@ -1,12 +1,12 @@
 # Securities Financing Transactions
-SFT transactions are most commonly used to:  
-1. Use one or more of your securities to borrow cash from a counterparty
-2. Use one or more of your securities to borrow a different security you need from a counterparty
-3. Use your cash to borrow a security you need from a counterparty
+SFT transactions most commonly:  
+1. Use one or more of your securities to borrow cash from a counterparty  
+2. Use one or more of your securities to borrow a different security you need from a counterparty  
+3. Use your cash to borrow a security you need from a counterparty  
 
 Instead of using securities, banks can also use commodities.   
 
-Also, instead of borrowing a security they can also sell and buy-back (or visa-versa).  The only differences are in the legal & beneficial ownership, and accruing rights of the securities or commodities during the SFT duration.
+Sometimes, instead of borrowing a security banks can also sell and buy-back (or visa-versa) securities.  The only differences are in the legal & beneficial ownership, or accruing rights of the securities or commodities during the in-force period of the SFT trade.
 
 ### SFT Background
 Banks enter into an SFT for various purposes, but mostly for relatively short term cash managment.   
@@ -41,7 +41,7 @@ erDiagram
 ```
 
 ### Trade
-An individual transaction between two counterparties.  The trade identifies the financial instrument being exchanged, the product type and sub-tyes, the legal entities (counterparties), effective & maturity dates, time duration of the SFT, other flags or indicators and sometimes the trader or trading desk identifiers.  
+An individual transaction between two counterparties.  The trade identifies the financial instrument being exchanged, the product type and sub-tyes, the legal entities (counterparties), effective & maturity dates, time duration of the SFT, other flags or indicators and sometimes the trader or trading desk.  
 
 ### Leg
 Each portion of the trade.  For example, in a Repo there are 2 legs.  One for the security and the other for the cash.  The leg contains all the data items specific to the portion for that particular trade.  
