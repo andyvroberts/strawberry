@@ -37,7 +37,8 @@ nav:
   - Finance:
     - finance/SFT.md
   - Energy:
-      - energy/MHHS/CoS.md
+    - energy/mhhs.md
+    - energy/MHHS/CoS.md
 
 plugins: 
   - search
