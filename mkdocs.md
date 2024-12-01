@@ -1,11 +1,19 @@
-# Setup MK Docs
+# Setup
 A static web-site using github pages
 
-## Install
+## Installations
+### Python
 If you need to add Python, as I do on Alpine, run:
+```python
+doas apk add python3 py3-pip
+mkdir new mkdocs
+cd mkdocs
+py -m venv .venv/docs
+source .venv/docs/bin/activate
+# optional
+py -m pip install -r ../req.txt 
 ```
-doas apk add python2 py3-pip
-```
+### MkDocs
 Follow the install instructions  
 https://squidfunk.github.io/mkdocs-material/getting-started/   
   
@@ -13,6 +21,7 @@ create a new project folder and install, run it.
 ```
 mkdocs new docs
 cd docs
+
 mkdocs serve
 ```
 

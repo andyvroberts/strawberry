@@ -31,6 +31,8 @@ theme:
 
 nav:
   - index.md
+  - Data:
+    - data/lakehouse.md
   - Insurance:
     - insurance/Glossary.md
     - insurance/ClassOfBusiness.md
